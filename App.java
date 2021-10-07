@@ -1,3 +1,4 @@
+
 public class App {
     public static void main(String[] args) throws Exception {
         Grafo<String> grafo = new Grafo<String>();
@@ -6,6 +7,8 @@ public class App {
         grafo.adicionarVertice("didi");
         grafo.adicionarVertice("dodo");
         grafo.adicionarVertice("dudu");
+        grafo.adicionarVertice("ana");
+
 
         grafo.adicionarAresta(1.0, "dada", "dede");
         grafo.adicionarAresta(1.0, "dede", "didi");
@@ -13,7 +16,7 @@ public class App {
         grafo.adicionarAresta(1.0, "dodo", "dudu");
         grafo.adicionarAresta(1.0, "didi", "dada");
         grafo.adicionarAresta(1.0, "dodo", "dudu");
-        grafo.adicionarAresta(1.0, "didi", "dudu");
+        grafo.adicionarAresta(1.0, "didi", "ana");
 
         grafo.buscaEmLargura();
     }
