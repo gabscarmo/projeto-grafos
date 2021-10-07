@@ -58,5 +58,4 @@ public class Grafo<TIPO> {
         }
         System.out.println(x);//Saída do valor de vértices conectados
     }
-
 }
