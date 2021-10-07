@@ -7,3 +7,14 @@ Grafo não orientado: Não há arestas orientadas
 Grafos não-dirigido: um grafo não-dirigido é conexo se existir um caminho entre quaisquer dois vértices do grafo.
 Grafo Orientado (Dígrafo): é fortemente conexo se existir um caminho de a para b e de b para a, para cada par a,b de vértice do grafo.
 Grafos fracamente conexos: um grafo é dito fracamente conexo se, ao substituir os arcos (setas) por arestas (retas), temos um grafo não-dirigido conexo. Esse grafo não-dirigido é chamado de grafo não orientado subjacente
+
+Alunos da equipe:
+
+Gabriela Silva Do Carmo
+Matrícula: 201607040024
+
+Maxwell Wilhames Araujo Lobato
+Matrícula: 202007040032
+
+Yasmim Carvalho da Silva
+Matrícula: 202007040025
