@@ -36,6 +36,7 @@ public class Grafo<TIPO> {
     
     
     public void buscaEmLargura(){
+        int x = 1; //Iniciamos com x=1 pois iniciamos apartir de um vertice
         ArrayList<Vertice<TIPO>> marcados = new ArrayList<Vertice<TIPO>>();
         ArrayList<Vertice<TIPO>> fila = new ArrayList<Vertice<TIPO>>();
         Vertice<TIPO> atual = vertices.get(0);
@@ -49,10 +50,13 @@ public class Grafo<TIPO> {
                 if (!marcados.contains(proximo)){ //se o vértice ainda não foi marcado
                     marcados.add(proximo);
                     System.out.println(proximo.getDado());
-                    fila.add(proximo);                    }
+                    fila.add(proximo);
+                    x= 1 + x;
                 }
+            }
             fila.remove(0);
         }
+        System.out.println(x);
     }
 
 }
