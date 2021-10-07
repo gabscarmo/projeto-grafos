@@ -14,6 +14,18 @@ Grafos fracamente conexos: Um grafo é dito fracamente conexo se, ao substituir 
 Busca em largura em grafos:
 Em teoria seria um algoratimo de busca utilizado para realizar uma busca ou tragetoria de um grafo e estrutura de grafo do tipo árvore. Individualmente, iremos iniciar pelo vértice raiz e explora os vértices dos vizinhos seguintes. Assim, para cada um desses vértices mais próximos, exploramos os seus vértices vizinhos inexplorados e assim sucessivamente, até que ele encontre o alvo da busca.
 
+Vamos utilizar a busca em largura em grafos pois ela melhor atende a finalidade do projeto.
+Para solucionar esse problema, vamos selecionar um vértice e inicializar um número inteiro com 1, (O x=1) e daí iniciamos nossa contagem.
+Para haver uma solução é preciso percorrer o primeiro vértice até o seguinte, sem que se repita o vértice e some ao x de forma errônea. Por tanto, vamos marcar os elementos que já foram adicionados ao x, depois vamos adicionar uma fila para que tenhamos o controle de qual caminho estamos tomando.
+E um vértice chamado atual, que vai começar com o vértice 0 do arraylist dos vértices
+
+Vamos criar uma estrutura de repetição enquanto (while), que enquanto houver elementos na fila percorrida, o laço continuará ocorrendo.
+Atribuiremos o primeiro elemento da fila ao vértice visitado e iniciaremos um laço for que irá ser percorrido até que todas as arestas que estão ligadas ao grafo sejam percorridas e daí iremos entrar com a solução do número de grafos conectados. 
+Vai haver um vértice chamado próximo que irá receber a próxima aresta utilizando o ponteiro i
+Se a lista de vértices marcados não contiver o próximo, o número x não será incrementado. Se o vértice próximo não tiver sido marcado, o x será incrementado e o vértice próximo irá ser marcado. E assim todos os laços irão obedecer as condições e o console irá retornar todos os elementos conectados e o número de elementos conectados.
+
+
+
 Alunos da equipe:
 
 Gabriela Silva Do Carmo
