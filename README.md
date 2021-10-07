@@ -17,10 +17,13 @@ Em teoria seria um algoratimo de busca utilizado para realizar uma busca ou trag
 Alunos da equipe:
 
 Gabriela Silva Do Carmo
+
 Matrícula: 201607040024
 
 Maxwell Wilhames Araujo Lobato
+
 Matrícula: 202007040032
 
 Yasmim Carvalho da Silva
+
 Matrícula: 202007040025
