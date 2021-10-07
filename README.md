@@ -11,10 +11,13 @@ Grafos fracamente conexos: um grafo é dito fracamente conexo se, ao substituir 
 Alunos da equipe:
 
 Gabriela Silva Do Carmo
+
 Matrícula: 201607040024
 
 Maxwell Wilhames Araujo Lobato
+
 Matrícula: 202007040032
 
 Yasmim Carvalho da Silva
+
 Matrícula: 202007040025
